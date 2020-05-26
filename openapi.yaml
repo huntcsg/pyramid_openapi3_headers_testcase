@@ -1,0 +1,17 @@
+openapi: "3.0.0"
+info:
+  description: "Headers test case"
+  title: "Auth API"
+  version: "0.1.0"
+paths:
+  /hello:
+    get:
+      summary: Say hello
+      operationId: hello
+      responses:
+        "200":
+          description: Successful hello
+          content:
+            application/json:
+              schema:
+                type: object
